@@ -1,0 +1,41 @@
+% !TeX root = ../main.tex
+
+% 中英文摘要和关键字
+
+\begin{abstract}
+  使用Qemu模拟器在ARM架构上运行x86程序时, 由于指令
+  翻译造成的性能损失, 导致真实应用几乎不可用。本文阐
+  述了使用LLVM的即时编译及代码优化技术, 提高生成机器
+  码的执行效率, 改善x86程序在ARM架构上的执行性能. 由
+  于时间有限, 目前仅实现了Qemu用户态下的优化工作。
+  经过优化, Qemu模拟器在ARM架构上执行x86程序的性能
+  得到显著提升, nbench测试下的Integer Index约提
+  升至原来的5倍.
+
+  % 关键词用“英文逗号”分隔
+  \thusetup{
+    keywords = {Qemu, LLVM, 即时编译, 代码优化, x86, ARM},
+  }
+\end{abstract}
+
+\begin{abstract*}
+  When using the Qemu simulator to run x86 programs
+   on the ARM architecture, the performance loss
+   caused by instruction translation makes the
+   real application almost unavailable. This article
+    describes the use of LLVM's just-in-time compilation
+     and code optimization technology to improve
+     the execution efficiency of the generated
+     machine code and improve the execution performance
+      of x86 programs on the ARM architecture.
+      Due to the limited time, only the optimization
+       work in Qemu user mode is currently
+    implemented. After optimization, the performance
+     of the Qemu emulator to execute x86 programs
+     on the ARM architecture has been significantly
+     improved, and the Integer Index under the
+    nbench test has been increased to about 5 times the original.
+  \thusetup{
+    keywords* = {Qemu, LLVM, Just-in-time compilation, Code optimization, x86, ARM},
+  }
+\end{abstract*}

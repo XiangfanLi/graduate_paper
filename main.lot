@@ -1,0 +1,4 @@
+\contentsline {table}{\numberline {2.1}{\ignorespaces 使用不同的执行引擎, 某一TB先后被执行多次的时间开销(us)\relax }}{6}{table.caption.11}
+\contentsline {table}{\numberline {2.2}{\ignorespaces 使用JIT编译器作执行引擎, 并设置不同的代码优化级别得到的NBench评测结果\relax }}{8}{table.caption.12}
+\contentsline {table}{\numberline {2.3}{\ignorespaces 对热点TB使用JIT编译, 非热点TB使用解释器解释执行, 得到的NBench评测结果\relax }}{9}{table.caption.13}
+\contentsline {table}{\numberline {2.4}{\ignorespaces 实现TB chaining机制后, 得到的NBench评测结果\relax }}{10}{table.caption.14}
